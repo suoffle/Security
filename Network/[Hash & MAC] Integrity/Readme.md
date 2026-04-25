@@ -1,5 +1,5 @@
 #1 SHA512_BruteForce  
-brute force 방식으로 hash 값(앞 3byte: 000) 찾기  
+Brute force 방식으로 hash 값(앞 3byte: 000) 찾기  
 -> for문으로 통해 0 - 2^24-1 까지 탐색  
 
 #2 HMAC_Integrity  
