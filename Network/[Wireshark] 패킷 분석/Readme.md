@@ -1,7 +1,7 @@
 #1 Ping of Death
 - hping3를 이용해 크기가 큰 ICMP 패킷을 만들어 전송하고, 이를 wireshark를 통해 확인.
 - local 환경에서 실습
-- sudo hping3 --icmp --rand-source [Host IP] -d 65000
+- $ sudo hping3 --icmp --rand-source [Host IP] -d 65000
   - source ip는 분산 공격 트래픽처럼 설정하기 위해 rand-source 사용.
   - 데이터 패킷은 65,000 bytes의 큰 값을 설정하여 framgentation 되도록 설정.
 
