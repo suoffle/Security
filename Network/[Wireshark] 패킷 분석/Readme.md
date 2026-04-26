@@ -17,12 +17,12 @@
     => Ethernet Header(14) + IP Header(20) + ICMP Header(8) + ICMP Data(1360) = 1402 bytes
     ```
   - 65000 bytes에 8bytes가 추가된 것은 ICMP Header인 것으로 판단된다.
-
-
-
-
-
-
+ 
+```
++ 실행 프로세스(PoD) 종료 방법
+$ ps aux | grep hping3
+$ kill -9 [PID]
+```
 
 
 
